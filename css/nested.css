@@ -1,0 +1,23 @@
+img {
+  max-width: 300px;
+  padding-left: 3rem;
+}
+h1 {
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+.container {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  margin-right: 3rem;
+}
+
+h3 {
+  padding-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 15rem;
+  border: solid black;
+  padding: 0.5rem;
+  border-radius: 5%;
+  background-color: antiquewhite;
+}
