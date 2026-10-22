@@ -1,0 +1,29 @@
+body {
+  border: solid wheat;
+  max-width: 1200px;
+  margin-inline: auto;
+  box-shadow: 5px 5px 15px grey;
+}
+h1 {
+  border: black;
+  max-width: 1000px;
+  margin-inline: auto;
+  background-color: black;
+  color: antiquewhite;
+  padding: 1rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 2rem;
+  margin-left: 25rem;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: brown;
+}
