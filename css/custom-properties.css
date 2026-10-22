@@ -1,0 +1,40 @@
+:root {
+  --card-radius: 12px;
+  --spacing: 24px;
+  --img-ratio: 3/2;
+  --card-max: 1100px;
+  --card-width: 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing);
+  max-width: var(--card-max);
+  margin: 40px auto;
+}
+.card {
+  padding: var(--spacing);
+  border: 1px solid #aaa;
+  border-radius: var(--card-radius);
+}
+.card img {
+  width: var(--card-width);
+  aspect-ratio: var(--img-ratio);
+  object-fit: cover;
+  border-radius: var(--card-radius);
+}
+card h2 {
+  font-size: 1.5rem;
+  margin: 24px 0 12px;
+}
+.card p {
+  line-height: 1.6;
+  margin-bottom: var(--spacing);
+}
+.card button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--card-radius);
+  cursor: pointer;
+}
