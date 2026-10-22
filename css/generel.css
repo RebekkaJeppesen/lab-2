@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+  list-style-type: none;
+}
+a {
+  color: antiquewhite;
+}
+a:hover {
+  color: brown;
+}
+
+li {
+  border: solid black;
+  padding: 0.5rem;
+  border-radius: 10%;
+  background-color: black;
+  filter: opacity(50%);
+}
+li:hover {
+  box-shadow: 0 4px 6px black;
+  transform: translateY(-0.2rem);
+}
