@@ -1,0 +1,46 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: span2;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  border: solid wheat;
+  max-width: 1200px;
+  margin-inline: auto;
+  box-shadow: 5px 5px 15px grey;
+}
+.container {
+  position: relative;
+  width: 300px;
+}
+.overlay-grid {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.overlay-grid2 {
+  width: 60%;
+  position: absolute;
+  bottom: 48%;
+  right: 8%;
+  color: aliceblue;
+}
+.overlay-grid3 {
+  position: absolute;
+  top: 2%;
+  left: 100%;
+  width: 60%;
+  padding-left: 1rem;
+  border: solid black;
+  background-color: grey;
+}
+.overlay-img {
+  width: 50%;
+  position: absolute;
+  bottom: 48%;
+  right: 8%;
+}
+
+Header {
+  grid-column: 1/3;
+}
